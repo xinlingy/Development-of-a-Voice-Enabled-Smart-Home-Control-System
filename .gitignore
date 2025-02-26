@@ -39,3 +39,9 @@ __pycache__/
 venv/
 env/
 .venv/
+
+# ignore images
+backend/face/dataset/caltech_faces/**/*.jpg
+backend/face/dataset/caltech_faces/**/*.jpeg
+backend/face/dataset/caltech_faces/**/*.png
+
