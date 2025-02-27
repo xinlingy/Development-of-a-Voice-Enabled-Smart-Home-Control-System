@@ -31,9 +31,10 @@ In this project, I was responsible for the following areas:
 > (Note: Hardware integration and control with devices like the Raspberry Pi were not part of my contributions.)
 
 ## Demo Screenshots
-![Home Screen](images/home_screen.png)  
-![Voice Control](images/voice_control.png)  
-![Fan Control](images/fan_control.png)  
+![Home Screen](docs/images/home_screen.png)  
+![Light Control](docs/images/light_control.png)  
+![Fan Control](docs/images/fan_control.png)  
+![Air Conditioner Control](docs/images/airconditioner_control.png)  
 
 ## Demonstration Video
 **Watch the full demo**: [Click here](https://youtu.be/QZ_JLb-7iHs)
