@@ -31,10 +31,12 @@ In this project, I was responsible for the following areas:
 > (Note: Hardware integration and control with devices like the Raspberry Pi were not part of my contributions.)
 
 ## Demo Screenshots
-![Home Screen](docs/images/home_screen.png)  
-![Light Control](docs/images/light_control.png)  
-![Fan Control](docs/images/fan_control.png)  
-![Air Conditioner Control](docs/images/airconditioner_control.png)  
+<div style="display: flex; justify-content: center;">
+  <img src="docs/images/home_screen.png" width="150" height="300" style="margin-right: 20px;">
+  <img src="docs/images/light_control.png" width="150" height="300" style="margin-right: 20px;">
+  <img src="docs/images/fan_control.png" width="150" height="300" style="margin-right: 20px;">
+  <img src="docs/images/airconditioner_control.png" width="150" height="300">
+</div>
 
 ## Demonstration Video
 **Watch the full demo**: [Click here](https://youtu.be/QZ_JLb-7iHs)
