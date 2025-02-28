@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <FrameLayout
+        android:id="@+id/cameraFrame"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:background="@android:color/transparent"
+        android:foreground="?android:attr/selectableItemBackgroundBorderless">
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#80000000"
+            android:padding="3dp"
+            android:backgroundTintMode="add" />
+
+        <androidx.camera.view.PreviewView
+            android:id="@+id/viewFinder"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scaleType="fitCenter" />
+
+    </FrameLayout>
+
+    <ImageView
+        android:id="@+id/capturedImageView"
+        android:layout_width="300dp"
+        android:layout_height="400dp"
+        android:layout_gravity="center"
+        android:visibility="gone"
+    android:scaleType="centerCrop" />
+
+    <Button
+        android:id="@+id/captureButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="100dp"
+        android:text="偵測" />
+
+    <ImageButton
+        android:id="@+id/backToLoginButton"
+        android:layout_width="54dp"
+        android:layout_height="59dp"
+        android:layout_gravity="start|top"
+        android:layout_margin="16dp"
+        android:background="?android:attr/selectableItemBackground"
+        android:contentDescription="Back to login"
+        android:src="@android:drawable/ic_menu_revert" />
+</FrameLayout>
+
+
